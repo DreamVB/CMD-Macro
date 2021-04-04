@@ -1,0 +1,38 @@
+; Times table lister
+
+Var Table : Integer
+Var Ret : Integer
+Var sRet : String
+Var sCounter : String
+Var sTable : String
+Var sLine : String
+Var X : Integer
+Table := 2
+
+X := 0
+
+WriteLn('Times Table Lister Version 1.0')
+WriteLn('By Ben a.k.a DreamVB')
+WriteLn('')
+Write('Enter a number between 1 and 12: ')
+ReadLn(Table)
+itoa(sTable,Table)
+
+Loop 11
+   Inc(X)
+   
+   Ret := (X * Table)
+   itoa(sCounter,X)
+   sLine := sCounter
+   
+   AppendStr(sLine,' x ')
+   AppendStr(sLine,sTable)
+   AppendStr(sLine,' = ')	
+   itoa(sRet,Ret)
+   AppendStr(sLine,sRet)
+   WriteLn(sLine)
+EndLoop
+
+sLine := ''
+
+Exit(1)

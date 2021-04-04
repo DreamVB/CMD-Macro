@@ -1,0 +1,1 @@
+gcc cmdmacro.c -o cmdmacro.exe

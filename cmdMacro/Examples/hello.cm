@@ -1,0 +1,7 @@
+; Hello World Script
+
+Var sHello : String
+sHello := 'Hello World!'
+WriteLn(sHello)
+Beep()
+Exit(1)

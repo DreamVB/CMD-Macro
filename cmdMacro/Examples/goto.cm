@@ -1,0 +1,13 @@
+; Goto Example
+
+Goto Start
+
+Here:
+WriteLn('The End')
+Beep()
+Exit(1)
+
+Start:
+WriteLn('Hello World')
+goto Here
+

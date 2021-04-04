@@ -1,0 +1,8 @@
+; read number Script
+
+Var Num : Integer
+Write('Enter A Number And I Will Add 4 To it: ')
+ReadLn(Num)
+Inc(Num,4)
+WriteLn('Your Number Now Is: ', Num)
+Exit(1)

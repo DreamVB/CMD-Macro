@@ -1,0 +1,24 @@
+; GoSub example
+
+Var Msg : String
+Var Num : Integer
+
+Num := 4
+
+Num := Num - 1
+GoSub MySub
+
+Num := Num - 1
+GoSub MySub
+
+Num := Num - 1
+GoSub MySub
+
+Num := Num - 1
+GoSub MySub
+Writeln('We have lift off......')
+Exit(1)
+
+MySub:
+  WriteLn('Counter is: ',Num)
+  Return

@@ -1,0 +1,11 @@
+; Readln Script
+
+Var sName : String
+Write('What is your name: ')
+ReadLn( sName )
+WriteLn('')
+Write('Hello ')
+Write(sName)
+Write(' Pleased to meet you!')
+WriteLn('')
+Exit(1)

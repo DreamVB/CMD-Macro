@@ -1,0 +1,8 @@
+; Hello World Script
+
+Var sHello : String
+
+sHello := 'Hello'
+AppendStr(sHello,' World')
+WriteLn(sHello)
+Exit(1)

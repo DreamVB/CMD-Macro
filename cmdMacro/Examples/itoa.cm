@@ -1,0 +1,14 @@
+; Hello World Script
+
+Var Str : String
+Var StrNum : String
+Var Bottles : Integer
+
+Bottles := 8
+; Convert integer to a string
+itoa(StrNum,bottles)
+Str := 'There Are '
+AppendStr(Str,StrNum)
+AppendStr(Str,' green bottles on the wall.')
+WriteLn(Str)
+Exit(1)

@@ -1,0 +1,10 @@
+; Hello World Script
+
+Var sNum : String
+Var Num : Integer
+
+sNum := '128'
+atoi(Num,sNum)
+WriteLn('Value of Num is: ',Num)
+
+Exit(1)

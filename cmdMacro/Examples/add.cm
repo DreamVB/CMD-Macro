@@ -1,0 +1,14 @@
+; Add two numbers
+
+Var NumOne : Integer
+Var NumTwo : Integer
+Var Ret : Integer
+Write('Enter First Number: ')
+ReadLn(NumOne)
+Write('Enter Second Number: ')
+ReadLn(NumTwo)
+
+Ret := NumOne + NumTwo
+WriteLn('Answer is : ', Ret)
+
+Exit(1)

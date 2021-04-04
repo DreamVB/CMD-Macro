@@ -1,0 +1,17 @@
+; Math Test
+
+Var A : Integer
+Var B : Integer
+Var Result : Integer
+
+A := 10
+B := 20
+
+Result := (A + B) * 2
+WriteLn('A = 10')
+WriteLn('B = 20')
+Write('(A + B) * 2 = ')
+Write(Result)
+WriteLn('')
+
+Exit(1)

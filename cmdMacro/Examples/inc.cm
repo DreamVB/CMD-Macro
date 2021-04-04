@@ -1,0 +1,13 @@
+; INC / DEC Example
+
+Var num : Integer
+Var I : Integer
+
+I := 4
+num := 8
+Inc(num,I)
+WriteLn(num)
+Dec(Num,2)
+WriteLn(Num)
+
+Exit(1)

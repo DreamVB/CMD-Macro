@@ -1,0 +1,9 @@
+; Hello World Script
+
+Var Str : String
+
+Write('Enter a string: ')
+ReadLn(Str)
+StrUpper(Str)
+WriteLn('Here is the string in uppercase: ',Str)
+Exit(1)

@@ -1,0 +1,11 @@
+; Hello World Script
+
+var e : integer
+var t : integer
+
+e := 25
+t := e ^ 3
+WriteLn(t)
+
+
+Exit(1)

@@ -1,0 +1,11 @@
+; Hello World Script
+
+Var Counter : Integer
+
+Counter := 4
+
+Loop Counter
+   WriteLn('Hello World')
+EndLoop
+
+Exit(1)

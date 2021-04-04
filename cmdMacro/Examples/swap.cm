@@ -1,0 +1,28 @@
+; Swap Example
+
+Var A : Integer
+Var B : Integer
+Var T : Integer
+
+A := 100
+B := 256
+
+Write('A = ')
+Write(A)
+WriteLn('')
+Write('B = ')
+Write(B)
+WriteLn('')
+
+T := B
+B := A
+A := T
+WriteLn('After Swap')
+Write('A = ')
+Write(A)
+WriteLn('')
+Write('B = ')
+Write(B)
+WriteLn('')
+
+Exit(1)
